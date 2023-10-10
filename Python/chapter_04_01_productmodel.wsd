@@ -1,6 +1,9 @@
 @startuml classDiagram
 title Product Model
 class Product {
-    Product()
+    +name
+    +price
+    +quantity
+    +Product(name,price,quantity)
 }
 @enduml
